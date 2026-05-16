@@ -9,6 +9,7 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+        maven("https://raw.githubusercontent.com/objectbox/objectbox-java/master/gradle-plugin")
     }
 }
 plugins {
@@ -19,6 +20,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven("https://raw.githubusercontent.com/objectbox/objectbox-java/master/gradle-plugin")
     }
 }
 

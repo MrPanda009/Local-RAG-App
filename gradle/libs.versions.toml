@@ -10,7 +10,7 @@ kotlin = "2.2.10"
 composeBom = "2026.02.01"
 room = "2.6.1"
 sqliteBundled = "2.4.1"
-objectBox = "3.7.1"
+objectBox = "4.0.3"
 koin = "3.5.0"
 
 [libraries]

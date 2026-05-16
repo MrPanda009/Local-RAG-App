@@ -2,7 +2,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
     id("com.google.devtools.ksp") version "2.2.10-1.0.27"
-    id("io.objectbox") version "3.7.1"
+    kotlin("kapt")
+    id("io.objectbox") version "4.0.3"
 }
 
 android {
